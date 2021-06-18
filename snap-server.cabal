@@ -79,10 +79,6 @@ Library
     Snap.Http.Server.Types,
     Snap.Internal.Http.Server.Config,
     Snap.Internal.Http.Server.Types,
-    System.FastLogger
-
-  other-modules:
-    Paths_snap_server,
     Control.Concurrent.Extended,
     Snap.Internal.Http.Server.Address,
     Snap.Internal.Http.Server.Clock,
@@ -93,6 +89,10 @@ Library
     Snap.Internal.Http.Server.Socket,
     Snap.Internal.Http.Server.Thread,
     Snap.Internal.Http.Server.TimeoutManager,
+    System.FastLogger
+
+  other-modules:
+    Paths_snap_server,
     Snap.Internal.Http.Server.TLS
 
   build-depends:
